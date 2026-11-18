@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Student</title>
+</head>
+<body>
+
+    <h1>Add Student Details</h1>
+
+    <form action="/student/add" method="post">
+
+        Name:
+        <input type="text" name="name" required><br><br>
+
+        Age:
+        <input type="number" name="age" required><br><br>
+
+        Course:
+        <input type="text" name="course" required><br><br>
+
+        Gender:
+        <input type="text" name="gender" required><br><br>
+
+        Marks:
+        <input type="number" name="marks" required><br><br>
+
+        Status:
+        <select name="status">
+            <option value="1">Present</option>
+            <option value="0">Absent</option>
+        </select><br><br>
+
+        <button type="submit">Add Student</button>
+
+    </form>
+
+    <a href="/">Back to Home</a>
+
+</body>
+</html>

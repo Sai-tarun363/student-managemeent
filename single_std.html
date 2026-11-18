@@ -1,0 +1,22 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Details</title>
+</head>
+<body>
+
+    <h1>Student Details</h1>
+
+    <p>ID: {{ std[0] }}</p>
+    <p>Name: {{ std[1] }}</p>
+    <p>Age: {{ std[2] }}</p>
+    <p>Gender: {{ std[3] }}</p>
+    <p>Marks: {{ std[4] }}</p>
+    <p>Course: {{ std[5] }}</p>
+    <p>Status: {{ "Present" if std[6] == 1 else "Absent" }}</p>
+
+    <a href="/">Back to Home</a>
+
+</body>
+</html>
